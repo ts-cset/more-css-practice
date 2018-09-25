@@ -1,0 +1,41 @@
+html {
+  background: #fefefe;
+  color: #444;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(0.5rem + 1.25vw);
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  border-bottom: 4px dotted #8fbcbb;
+  font-family: Courier, monospace;
+  letter-spacing: 0.3rem;
+  padding-bottom: 0.5rem;
+}
+
+article {
+  margin: 3rem 0;
+}
+
+img {
+  border: 3px solid #444;
+  min-width: 200px;
+  width: 50%;
+  transition: border-color 0.25s ease;
+}
+img:hover {
+  border: 3px solid #8fbcdd;
+}
+
+a {
+  color: #444;
+  transition: color 0.25s ease;
+}
+a:hover {
+  color: #8fbcdd;
+}
