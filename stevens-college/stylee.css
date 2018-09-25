@@ -1,0 +1,32 @@
+/* Add your CSS here */
+
+	
+
+h1 { 
+   position: relative;
+   top: 2px; 
+   font-size: 100px;
+   text-align: left; 
+    width: 50% }
+
+
+img { 
+      width: 98% }
+   
+p { font-size: 20px;
+    position: relative;
+    top: 50px;	}
+
+
+div a { 
+    position: relative;
+    top: 10px;
+    left: 200px;
+    background: red;
+    margin: 40px; 
+    padding: 20px 40px;	
+    displa }
+
+img { 
+      display: block; }
+  
