@@ -4,8 +4,8 @@ h1 {
   margin:0;
   padding:0;
   border:0;
-  width:1%;
-  font-size:4em;
+  width:100%;
+  font-size:4.2em;
 }
 img {
   width:100%;
@@ -14,8 +14,22 @@ img {
 .upper {
   text-transform: uppercase;
 }
+div a:nth-child(1) {
+  margin-left: 12em;
+  margin-right: 30px;
+  margin-top:2em;
+}
+div a:nth-child(2) {
+  margin-right: 30px;
+}
+div a:nth-child(3) {
+  margin-right: 30px;
+}
 a {
-  display:inline-block;
-  border-color:maroon;
-  width:0 auto;
+  display: inline-block;
+  width: auto;
+  padding: 10px;
+  background-color: maroon;
+  margin: 0 auto;
+  color:white
 }
