@@ -1,1 +1,39 @@
 /* Add your CSS here */
+
+
+h1 { 
+  color: white; 
+  position: absolute;
+  top: 25px;
+  font-weight: lighter; 
+  left: 20px; }
+
+.top img { 
+  width: 1650px;
+  height: 100px;}
+
+
+.was input { 
+  color: gray;
+  width: 1650px; 
+  height: 30px; }
+
+
+.check-in input { 
+  width: 825px;
+  height: 35px;}
+
+
+.check-out input {
+  float: right;
+  width: 825px; 
+  height: 35px; }
+
+.guest input {
+   width: 1650px; 
+   height: 30px;}
+
+
+div a { 
+display: inline; 
+}
