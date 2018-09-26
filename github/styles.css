@@ -7,8 +7,15 @@ a.top:nth-child(1n){
   top:0;
   left:20;
 }
-img {
+section {
   float:left;
+  width:100%;
+  margin:0;
+}
+section article {
+  width:50%;
+  display: inline-block;
+  margin: 0;
 }
 .small{
     color:red;
