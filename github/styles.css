@@ -1,1 +1,15 @@
-/* Add your CSS here */
+h1 {
+  display:block;
+  width: 0px auto;
+}
+a.top:nth-child(1n){
+  position:absolute;
+  top:0;
+  left:20;
+}
+img {
+  float:left;
+}
+.small{
+    color:red;
+}
