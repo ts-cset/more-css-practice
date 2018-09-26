@@ -1,9 +1,10 @@
 nav {
-  display: inline-block;
+  display:block;
   float: left;
-  padding: 1em;
+  width:9em;
   margin-bottom: 100%;
-  border-right: solid
+  border-right: solid;
+  margin-right: 1em;
 }
 nav ul li {
   list-style-type: none;
