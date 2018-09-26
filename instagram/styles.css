@@ -1,1 +1,10 @@
-/* Add your CSS here */
+aside {
+  box-sizing: border-box;
+  float:left;
+  margin-left:5em;
+  margin-right: 5em;
+}
+body{
+  float:left;
+  box-sizing: border-box;
+}
