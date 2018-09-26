@@ -5,7 +5,7 @@
 #full {
   width:100%;
 }
-.center, .half{
+.center{
   box-sizing: border-box;
   float:left;
   display:inline-block;
@@ -17,4 +17,13 @@
 }
 h1 {
   background-color: blue;
+}
+section label{
+  display:inline-block;
+  width:49%;
+}
+.half {
+  box-sizing: border-box;
+  float:left;
+  width:50%
 }
