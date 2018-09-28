@@ -1,1 +1,12 @@
-/* Add your CSS here */
+div{
+  float:left;
+  margin-left: 2em;
+  padding: 2.5em;
+  text-align: center;
+}
+h1 {
+  color:orange;
+}
+h2 {
+  border-bottom: thin solid lightgray;
+}

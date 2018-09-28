@@ -1,1 +1,37 @@
-/* Add your CSS here */
+.top {
+  display:block;
+  padding:20;
+}
+.full {
+  width:100%;
+}
+.center{
+  box-sizing: border-box;
+  float:left;
+  display:inline-block;
+  margin:0 auto;
+  width:50%
+}
+.upper {
+  text-transform:uppercase;
+}
+h1 {
+  background-color: blue;
+}
+section label{
+  display:inline-block;
+  width:49%;
+}
+.half {
+  box-sizing: border-box;
+  float:left;
+  width:50%
+}
+button {
+  background-color:red;
+  padding:1em;
+  width:100%;
+  border-radius: 1em;
+  height:5em;
+  color:white;
+}

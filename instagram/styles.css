@@ -1,1 +1,22 @@
-/* Add your CSS here */
+nav {
+  display:block;
+  float: left;
+  width:9em;
+  margin-bottom: 100%;
+  border-right: solid;
+  margin-right: 1em;
+}
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul {
+  padding: 1em;
+}
+
+li {
+  padding: 1em;
+}
+P {
+  padding-top: 1em;
+}

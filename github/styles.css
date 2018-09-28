@@ -1,1 +1,23 @@
-/* Add your CSS here */
+h1 {
+  display:block;
+  width: 0px auto;
+}
+section {
+  float:left;
+  width:100%;
+  margin:0;
+  text-align: center;
+}
+section article {
+  width:50%;
+  float:left;
+  display: inline-block;
+  margin: 0;
+}
+.small{
+    color:red;
+}
+article img {
+  float:left;
+  margin-right: 1.5em;
+}
