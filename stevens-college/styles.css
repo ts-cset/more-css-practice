@@ -1,1 +1,55 @@
 /* Add your CSS here */
+/*
+Border Box
+*/
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+
+font-size: 150pt;
+
+}
+
+img {
+display: flex;
+justify-content: center;
+width: 90%;
+height: 800px;
+margin: auto;
+
+}
+
+ul {
+
+display: flex;
+justify-content: space-around;
+
+}
+
+li {
+
+background-color: red;
+list-style: none;
+
+}
+
+a {
+display: block;
+padding: 20px;
+color: white;
+text-decoration: none;
+font-size: 20pt;
+
+}
+
+p {
+
+font-size: 20pt;
+
+}
