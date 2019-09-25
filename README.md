@@ -14,17 +14,22 @@ Some things to keep in mind:
 
 ## Layouts
 
-Stevens College
+### Stevens College
+
 ![Stevens College Layout](stevens-college/example.png)
 
-Instagram
+### Instagram
+
 ![Instagram Layout](instagram/example.png)
 
-Github
+### Github
+
 ![Github Layout](github/example.png)
 
-Airbnb
+### Airbnb
+
 ![Airbnb Layout](airbnb/example.png)
 
-Amazon
+### Amazon
+
 ![Amazon Layout](amazon/example.png)
