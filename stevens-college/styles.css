@@ -6,6 +6,8 @@ main {
   width: 430px;
   font-family: sans-serif;
   padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
