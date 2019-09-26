@@ -1,1 +1,83 @@
-/* Add your CSS here */
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.main-info {
+  width: 70%;
+  text-align: center;
+}
+
+.main-info h1 {
+  font-size: 4rem;
+}
+
+.main-info p,
+.careers a {
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+.careers {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.careers a {
+  display: block;
+  text-decoration: none;
+}
+
+.icon {
+  height: 5rem;
+  width: 5rem;
+  align-self: center;
+}
+
+.blurbs {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 3rem;
+}
+
+.small {
+  width: 40%;
+}
+
+.small p {
+  font-size: 1.3rem;
+}
+
+.small a {
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header li{
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+header a {
+  text-decoration: none;
+}
