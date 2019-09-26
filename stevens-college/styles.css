@@ -12,6 +12,8 @@ html {
 
 h1 {
 
+font-family: Arial;
+color: #0d2c30;
 font-size: 150pt;
 
 }
@@ -29,19 +31,20 @@ ul {
 
 display: flex;
 justify-content: space-around;
+padding: 20px;
 
 }
 
 li {
 
-background-color: red;
+background-color: #a5073c;
 list-style: none;
 
 }
 
 a {
 display: block;
-padding: 20px;
+padding: 20px 50px;
 color: white;
 text-decoration: none;
 font-size: 20pt;
