@@ -36,8 +36,8 @@ li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: #c50000;
-  border: thin solid #c50000;
+  background-color: #a5002e;
+  border: thin solid #a5002e;
   height: 2rem;
   width: 7rem;
   align-items: center;
@@ -45,5 +45,5 @@ li a {
 }
 li a:hover {
   background-color: white;
-  color: #c50000;
+  color: #a5002e;
 }
