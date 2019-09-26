@@ -16,3 +16,26 @@ p {
   color: gray;
   font-size: .8rem;
 }
+
+h2 {
+  margin-top: 2rem;
+  border-bottom: thin solid lightgray;
+  padding-bottom: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  width: 25%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+li a {
+  display: block;
+  text-decoration: none;
+}
