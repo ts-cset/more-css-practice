@@ -9,7 +9,7 @@ img {
   width: 100%;
 }
 
-div a {
+li a {
   color: white;
   display: inline-block;
   background-color: darkred;
