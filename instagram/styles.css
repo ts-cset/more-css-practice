@@ -31,3 +31,14 @@ h1 {
 h2 {
   text-transform: uppercase;
 }
+
+ol {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  margin: .5em;
+  text-decoration: none;
+  color: black;
+}
