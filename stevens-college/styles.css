@@ -1,1 +1,35 @@
-/* Add your CSS here */
+html {
+  padding: 1em;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 1em 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  margin: 1em;
+  padding: .5em .5em .5em .5em;
+  display: inline-block;
+  border: 5px solid #a6093d;
+  background-color: #a6093d;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
