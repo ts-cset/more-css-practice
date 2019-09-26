@@ -1,1 +1,49 @@
 /* Add your CSS here */
+.information {
+  display: flex;
+  flex-direction: column;
+  border-left: thin solid lightgray;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  padding-left: 10px;
+}
+.entire {
+  display: flex;
+  flex-direction: row-reverse;
+  border: thin solid lightgray;
+}
+h1 {
+  font-size: 30px;
+}
+.information h2{
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+p,
+a {
+  color: #2c2c2c;
+  font-family: sans-serif;
+  font-weight: 270;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.sidebar h2 {
+  color: #b1b1b1;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+span {
+  font-weight: bold;
+}
