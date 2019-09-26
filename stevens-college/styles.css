@@ -2,13 +2,16 @@ body{
   background-color: #fafafa;
 }
 
-
+main {
+  width: 600px;
+}
 
 h1 {
   position: relative;
-  font-size: 7rem;
+  font-size: 4rem;
   font-weight: 900;
   text-transform: uppercase;
+  margin: 0;
 }
 
 img {
@@ -27,4 +30,8 @@ a {
   background-color: darkred;
   padding: 1rem 2rem;
   margin: 1rem;
+}
+
+article {
+  line-height: 1.25;
 }
