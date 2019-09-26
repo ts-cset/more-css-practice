@@ -1,1 +1,95 @@
-/* Add your CSS here */
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #ddd;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+
+main,
+nav {
+  background-color: #fff;
+  border: 2px solid #eee;
+  padding: 1rem;
+}
+
+main {
+  padding: 3rem;
+}
+
+
+nav {
+  min-width: 200px;
+  border-right: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-header > li {
+  text-transform: uppercase;
+  color: #ccc;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.nav-sub {
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.nav-sub li {
+  margin: 0.5rem 0;
+}
+
+.nav-sub a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-sub a:hover {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  padding-bottom: 2rem;
+}
+
+h3,
+p {
+  padding-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.about {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
