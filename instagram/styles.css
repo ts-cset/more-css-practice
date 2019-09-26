@@ -1,1 +1,33 @@
-/* Add your CSS here */
+html {
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.aside {
+  width: 25%;
+  border: thin solid lightgrey;
+  border-right: none;
+  margin: 1em 0 0 1em;
+  padding-left: .5em;
+}
+
+.article {
+  border: thin solid lightgrey;
+  width: 75%;
+  margin: 1em 0 1em 0;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  text-transform: uppercase;
+}
