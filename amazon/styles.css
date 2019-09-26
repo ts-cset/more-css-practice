@@ -1,1 +1,19 @@
-/* Add your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header {
+  padding-bottom: 20px;
+}
+.products {
+  border: 1px solid lightgrey;
+  height: 10em;
+  width: 25%;
+}
