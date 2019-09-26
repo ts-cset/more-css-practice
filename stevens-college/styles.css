@@ -1,1 +1,56 @@
 /* Add your CSS here */
+body {
+  width: 1200px;
+}
+
+.title {
+  color: black;
+  font-size: 60px;
+}
+
+.video {
+  height: 450px;
+  width: 850px;
+  border: 1px solid black;
+
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+
+}
+
+.list1 {
+  background-color: red;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  }
+
+.list2 {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+.list3 {
+  background-color: red;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.thep {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+
+}
