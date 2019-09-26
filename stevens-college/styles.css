@@ -1,1 +1,62 @@
-/* Add your CSS here */
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 600px;
+  margin-left: 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 600px;
+}
+
+h1 {
+  width: 50%;
+  font-size: 5rem;
+  font-family: helvetica, arial, sans-serif;
+  margin-left: 2rem;
+}
+
+ul {
+  width: 600px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+nav a {
+  display: block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: .5rem 1rem;
+  background-color: #a6093d;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+nav a:hover {
+  background-color: #fff;
+  border: 1px solid #a6093d;
+  color: #a6093d;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
