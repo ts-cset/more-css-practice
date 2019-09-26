@@ -44,16 +44,17 @@ nav a {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   background-color: #a6093d;
   font-family: helvetica, arial, sans-serif;
   font-size: 1.5rem;
+  border: 1px solid #a6093d;
 }
 
 nav a:hover {
   background-color: #fff;
-  border: 1px solid #a6093d;
   color: #a6093d;
+  border: 1px solid #a6093d;
 }
 
 p {
