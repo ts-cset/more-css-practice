@@ -1,1 +1,73 @@
-/* Add your CSS here */
+/** General **/
+
+* {
+  box-sizing: border-box;
+
+}
+
+.body {
+  height: 800px;
+  font-size: 18px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+
+/** Navigation Bar **/
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+ul li:first-child {
+  color: lightgray;
+  position: relative;
+  right: 20px;
+}
+
+ul li:nth-child(5) {
+  color: lightgray;
+  position: relative;
+  right: 20px;
+}
+
+#sidebar {
+  width: 20%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+}
+
+
+/** Main Content **/
+
+#main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  font-weight: 300;
+}
+h1 {
+  font-size: 40px;
+
+}
+h2 {
+
+}
+article div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
