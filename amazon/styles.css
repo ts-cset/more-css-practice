@@ -18,10 +18,10 @@ h2{
   font-size: 1.5rem;
   padding: .5rem ;
   padding-top: 2rem;
+  border-bottom: .1rem solid lightgrey;
 }
 
 section{
-  border-top: .1rem solid lightgrey;
   display: flex;
   justify-content: center;
   flex-flow: wrap row;
