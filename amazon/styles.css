@@ -1,1 +1,18 @@
-/* Add your CSS here */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+main {
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+h1 {
+  color: #ff6a00;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: gray;
+  font-size: .8rem;
+}
