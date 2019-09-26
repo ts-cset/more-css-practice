@@ -1,1 +1,97 @@
 /* Add your CSS here */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+article {
+
+float: right;
+width: 85%;
+
+}
+
+aside {
+
+float: right;
+width: 15%;
+
+}
+
+ul {
+
+  margin: 0;
+  padding-left: 0;
+
+}
+
+ul.Outside{
+
+border: solid grey 1px;
+margin: 0;
+padding-left: 0;
+
+}
+
+li {
+
+padding: 5px 0;
+text-decoration: none;
+list-style: none;
+font-size: 20pt;
+color: grey;
+
+}
+
+li.Outside {
+
+padding-left: 10px;
+
+}
+
+li a {
+
+text-decoration: none;
+color: black;
+font-size: 16pt;
+padding-left: 10px;
+
+}
+
+
+li a:hover {
+
+font-weight: bold;
+border-left: solid black 3px;
+
+
+}
+
+
+article {
+
+padding: 0 2%;
+border: solid grey 1px;
+
+}
+
+article a {
+
+text-decoration: none;
+
+}
+
+article h1 {
+
+font-weight: normal;
+
+}
+
+article h2 {
+
+font-weight: normal;
+
+}
