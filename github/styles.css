@@ -1,1 +1,111 @@
 /* Add your CSS here */
+nav ul li {
+
+display: inline;
+
+}
+
+nav ul li a {
+
+text-decoration: none;
+
+}
+
+nav ul li a.second {
+
+color: black;
+
+}
+
+article ul {
+
+display: flex;
+justify-content: space-around;
+padding: 20px;
+width: 35%;
+margin: auto;
+
+}
+
+article ul li {
+
+display: inline;
+
+}
+
+article ul li a {
+
+text-decoration: none;
+font-size: 20pt;
+
+}
+
+article h1 {
+
+text-align: center;
+font-size: 30pt;
+padding: 20px;
+width: 35%;
+margin: auto;
+
+}
+
+article p.FirstParagraph {
+
+text-align: center;
+font-size: 25pt;
+width: 50%;
+margin: auto;
+
+}
+
+div {
+
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+
+div section {
+
+display: flex;
+justify-content: center;
+
+}
+div section div.Inside {
+
+display: flex;
+flex-direction: column;
+width: 50%;
+
+}
+
+
+div section img {
+
+width: 150px;
+height: 150px;
+
+}
+
+div section div.Inside h2 {
+
+display: inline;
+font-size: 12pt;
+margin: 0;
+
+}
+
+div section div.Inside p {
+
+display: inline;
+font-size: 12pt;
+margin: 0;
+
+}
+
+div section div a {
+
+text-decoration: none;
+
+}
