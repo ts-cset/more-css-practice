@@ -14,15 +14,19 @@ body {
 }
 
 h1 {
-  padding: 30px;
+  font-size: 200%;
+  margin-left: 20px;
+  padding-bottom: 20px;
 }
 
 h2 {
-  padding: 30px;
+  margin-left: 20px;
+  padding-bottom: 20px;
 }
 
 h3 {
-  padding: 15px;
+  margin-left: 20px;
+  padding-bottom: 20px;
 }
 .peeps {
   border-left: 1px solid black;
@@ -34,16 +38,19 @@ h3 {
 }
 
 .kevin > p {
+  margin-left: 20px;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
 .mike > p {
+  margin-left: 20px;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
 .mike:last-child {
+  padding-top: 20px;
   padding-bottom: 50px;
 }
 
@@ -60,4 +67,13 @@ h3 {
 
 .legal {
   padding: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
