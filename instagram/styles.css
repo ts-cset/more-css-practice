@@ -7,91 +7,72 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 article {
-
-float: right;
-width: 85%;
-
+  height: 500px;
+  float: right;
+  width: 85%;
+  background-color: white;
 }
 
 aside {
-
-float: right;
-width: 15%;
-
+  background-color: white;
+  float: right;
+  width: 15%;
 }
 
 ul {
-
   margin: 0;
   padding-left: 0;
-
 }
 
-ul.Outside{
-
-border: solid grey 1px;
-margin: 0;
-padding-left: 0;
-
+ul.Outside {
+  height: 500px;
+  border: solid grey 1px;
+  margin: 0;
+  padding-left: 0;
 }
 
 li {
-
-padding: 5px 0;
-text-decoration: none;
-list-style: none;
-font-size: 20pt;
-color: grey;
-
+  padding: 5px 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20pt;
+  color: grey;
 }
 
 li.Outside {
-
-padding-left: 10px;
-
+  padding-left: 10px;
 }
 
 li a {
-
-text-decoration: none;
-color: black;
-font-size: 16pt;
-padding-left: 10px;
-
+  text-decoration: none;
+  color: black;
+  font-size: 16pt;
+  padding-left: 10px;
 }
-
 
 li a:hover {
-
-font-weight: bold;
-border-left: solid black 3px;
-
-
+  font-weight: bold;
+  border-left: solid black 3px;
 }
 
-
 article {
-
-padding: 0 2%;
-border: solid grey 1px;
-
+  padding: 0 2%;
+  border: solid grey 1px;
 }
 
 article a {
-
-text-decoration: none;
-
+  text-decoration: none;
 }
 
 article h1 {
-
-font-weight: normal;
-
+  font-weight: normal;
 }
 
 article h2 {
-
-font-weight: normal;
-
+  font-weight: normal;
 }
