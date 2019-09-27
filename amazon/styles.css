@@ -1,1 +1,44 @@
 /* Add your CSS here */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+
+color: #e37911;
+
+}
+
+h2 {
+
+border-bottom: 1px grey solid;
+
+}
+
+section {
+
+display: flex;
+flex-wrap: wrap;
+
+}
+
+section div{
+
+width: 25%;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+section div img {
+
+width: 100px;
+height: 150px;
+
+}

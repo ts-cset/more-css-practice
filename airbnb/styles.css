@@ -1,4 +1,13 @@
 /* Add your CSS here */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
 article h1 {
 
 width: 100%;

@@ -1,4 +1,12 @@
 /* Add your CSS here */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 nav ul li {
 
 display: inline;
