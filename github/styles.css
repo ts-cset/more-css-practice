@@ -1,1 +1,62 @@
-/* Add your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  text-align: center;
+  margin: 10em 5em 3em 5em;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 4em;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.button {
+  padding: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
