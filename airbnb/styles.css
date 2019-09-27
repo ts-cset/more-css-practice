@@ -1,1 +1,73 @@
 /* Add your CSS here */
+article h1 {
+
+width: 100%;
+margin: auto;
+text-align: center;
+background-image: url(http://placekitten.com/200/300);
+color: white;
+
+}
+
+section.FirstSection {
+
+display: flex;
+flex-direction: column;
+padding: 20px;
+
+}
+
+section.FirstSection div.CheckOutside {
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+section.FirstSection div.CheckOutside div.CheckInside {
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 50%;
+
+}
+
+button {
+
+background-color: red;
+color: white;
+
+}
+
+section div.ImgOutside {
+
+display: flex;
+justify-content: space-around;
+
+}
+
+img{
+
+width: 100px;
+height: 100px;
+
+}
+
+section div.ImgOutside div.ImgInside {
+
+border: solid grey 1px;
+display: flex;
+align-items: center;
+
+}
+
+section div.ImgOutside div.ImgInside a {
+
+padding-left: 20px;
+padding-right: 150px;
+color: black;
+text-decoration: none;
+
+}
