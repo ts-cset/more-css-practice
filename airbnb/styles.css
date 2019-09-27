@@ -1,1 +1,44 @@
 /* Add your CSS here */
+.header {
+  background-image: url(images/background-airbnb.png);
+  background-position: top;
+  color: white;
+}
+
+.inputs {
+  background-color: white;
+}
+
+.where{
+
+}
+
+.checkin {
+
+}
+
+.checkout {
+
+}
+
+.guest {
+
+}
+
+.search {
+  
+}
+
+.input {
+  background-color: red;
+}
+
+.explore {
+background-color: white;
+color: gray;
+}
+
+.explore a {
+  color: gray;
+  text-decoration-line: none;
+}
