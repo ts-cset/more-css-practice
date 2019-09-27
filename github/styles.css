@@ -1,1 +1,102 @@
-/* Add your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 900px;
+  font-size: 18px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+
+.about li {
+  padding-right: 20px;
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 60px;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  width: 700px
+}
+
+.first {
+  font-size: 35px;
+  display: flex;
+  align-self: center;
+  width: 1200px;
+  text-align: center;
+}
+.middle {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  width: 600px;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.middle li {
+  list-style: none;
+  font-size: 25px;
+}
+
+.about li {
+  list-style: none;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+
+section.sec1 {
+
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+
+h2 {
+  align-self: flex-start;
+  justify-content: space-between;
+  width: auto;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+p {
+align-self: center;
+margin: 0px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+  margin-right: 20px;
+}
