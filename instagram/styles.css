@@ -1,1 +1,53 @@
 /* Add your CSS here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  float: left;
+  width: 400px;
+  border: 1px solid gray;
+  background-color: white;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav p {
+  color: darkgray;
+}
+
+nav a {
+  color: darkgray;
+  font
+}
+
+nav a:hover {
+  color: black;
+}
+
+section {
+  display: flex;
+  float: right;
+  width: 400px;
+  background-color: white;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
