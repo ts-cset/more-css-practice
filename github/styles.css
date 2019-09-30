@@ -40,6 +40,11 @@ nav {
   top: 0;
 }
 
+.current::before{
+  content: "/ ";
+  color: gray;
+}
+
 .links li{
   display: block;
   width: 30%;
