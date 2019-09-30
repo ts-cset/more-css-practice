@@ -1,36 +1,54 @@
 /* Add your CSS here */
+
+body {
+
+}
+
 .header {
   background-image: url(images/background-airbnb.png);
   background-position: top;
+}
+
+.header h1 {
   color: white;
+  font-family: sans-serif;
 }
 
-.inputs {
-  background-color: white;
-}
-
-.where{
+.forms {
 
 }
 
-.checkin {
+.forms p {
+  color: gray;
+}
+
+.forms > .where {
+  color: gray;
+  border-radius: 2px;
 
 }
 
-.checkout {
+.forms > .checkin {
+  color: gray;
+  border-radius: 2px;
 
 }
 
-.guest {
+.forms > .checkout {
+  color: gray;
+  border-radius: 2px;
+
+}
+
+.guests {
 
 }
 
 .search {
+  background-color: #F06649;
+  color: white;
+  border-radius: 5px;
 
-}
-
-.input {
-  background-color: red;
 }
 
 .explore {
@@ -38,7 +56,38 @@ background-color: white;
 color: gray;
 }
 
+.explore h2 {
+  color: gray;
+  font-weight: bold;
+}
+
+.explore ul {
+  list-style-type: none;
+}
+
 .explore a {
   color: gray;
-  text-decoration-line: none;
+  text-decoration: none;
+  border-width: thin;
+  border-style: outset;
+  border-color: gray;
+  border-radius: 3px;
+}
+
+.explore a:hover {
+  background-color: #F06649;
+  color: white;
+
+}
+
+.explore .one {
+
+}
+
+.explore .two {
+
+}
+
+.explore .three {
+
 }
