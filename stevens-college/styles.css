@@ -1,1 +1,53 @@
 /* Add your CSS here */
+.Title{
+  font-family: Arial;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+img{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.Title div{
+  color: #0C2C30;
+}
+.Image{
+  display: flex;
+  height: 500px;
+  width: 48%;
+  margin-left: 10px;
+  justify-content: center;
+}
+.button{
+  display: flex;
+  list-style-type: none;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.button li{
+  font-family: Arial;
+  font-size: 15px;
+  color:  #FFFFFF;
+  display: flex;
+  display: inline;
+  border: 1px solid black;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  background-color: #A6093D;
+  margin-right: 20px;
+}
+.Paragraphs{
+  display:flex;
+}
+.Paragraphs p{
+  font-size: 20px;
+}
+body{
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+}

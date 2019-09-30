@@ -1,1 +1,40 @@
 /* Add your CSS here */
+body{
+  box-sizing: border-box;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+}
+.top img{
+  justify-content: center;
+  height: 100px;
+}
+.top h2{
+  margin-right: 50px;
+  margin-top: 110px;
+  color: green;
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+}
+.bottom img{
+  height: 100px;
+}
+.bottom h2{
+  justify-content: center;
+  margin-right: 50px;
+  margin-top: 110px;
+  color: green;
+}
+.header h2:first-child{
+  font-size: 30px;
+  color: gold;
+}
+.body{
+  border-top: 1px solid black;
+}
+.header p span{
+  color: blue;
+}

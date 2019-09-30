@@ -1,1 +1,50 @@
 /* Add your CSS here */
+.P h2{
+    font-size: 50px;
+}
+.P ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 450px;
+  margin-left: 300px;
+  margin-top: 60px;
+  color: blue;
+}
+.P1 img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+.P1 h3{
+  position: absolute;
+  bottom: 260px;
+  left: 300px;
+}
+.P1 p{
+  position: absolute;
+  bottom: 170px;
+  left: 300px;
+  width: 340px;
+}
+.P2 img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 100px;
+  right: 600px;
+}
+.P2 h3{
+  position: absolute;
+  bottom: 260px;
+  right: 350px;
+}
+.P2 p{
+  position: absolute;
+  bottom: 170px;
+  right: 250px;
+  width: 340px;
+}

@@ -1,1 +1,57 @@
-/* Add your CSS here */
+.Head{
+  display: flex;
+}
+.flex1 input{
+  width: 100%;
+}
+.flex1{
+  display: flex;
+}
+.Head h2:last-child{
+  padding-left: 800px;
+}
+.form input{
+  width: 100%;
+}
+.button{
+  display: flex;
+  height: 20px;
+  width: 100%;
+  background-color: red;
+}
+.button div{
+ padding-left: 50%;
+}
+.explore{
+  position: relative;
+  display: flex;
+  height: 100px;
+}
+.explore img{
+   margin-left: 200px;
+}
+.explore h2:first-child{
+  position: absolute;
+  margin-bottom: 500px;
+}
+.explore .one{
+  border: 1px solid black;
+  margin-top: 100px;
+}
+.explore .two{
+  border: 1px solid black;
+  margin-top: 100px;
+}
+.explore .three{
+  border: 1px solid black;
+  margin-top: 100px;
+}
+.explore img{
+  height: 100px;
+  width:100px;
+  justify-content: space-between;
+}
+.explore{
+  margin-right: 300px;
+  justify-content: space-between;
+}
