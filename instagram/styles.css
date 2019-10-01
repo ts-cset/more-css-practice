@@ -1,1 +1,49 @@
-/* Add your CSS here */
+html {
+  box-sizing: border-box;
+  background: lightgray;
+}
+body {
+border: solid gray 1px;
+text-align: center;
+width: 1000px;
+height: 1000px;
+background-color: white;
+
+}
+.outside, .outside2 {
+  font-size: 30px;
+  list-style: none;
+
+
+}
+.inside, .inside2 {
+  font-size: 20px;
+  list-style: none;
+}
+
+ section a {
+  display: block;
+  color: #444;
+  text-decoration: none;
+}
+article {
+  border: solid gray 1px;
+  float: right;
+  height: 100%;
+  width: 80%;
+  box-sizing: border-box;
+  padding-left: 2em;
+  text-align: left;
+
+}
+aside {
+  border: solid gray 1px;
+  float: right;
+  height: 100%;
+  width: 20%;
+  box-sizing: border-box;
+}
+li a:hover {
+  color: black;
+  border-left: solid black 3px;
+}

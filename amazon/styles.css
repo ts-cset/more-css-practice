@@ -1,1 +1,56 @@
-/* Add your CSS here */
+html {
+
+box-sizing: border-box;
+
+}
+
+*,*::before, *::after {
+
+box-sizing: inherit;
+
+}
+
+
+body {
+  background: white;
+  margin-left: 40px;
+  border: 0.5px solid lightgray;
+  height: 900px;
+  width: 1100px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+h1 {
+  color: orange;
+  font-weight: bold;
+
+}
+h2 {
+  font-weight: bold;
+}
+a {
+  color: blue;
+}
+div.catagory1 a {
+  padding-top: 10px;
+  font-size: 20px;
+}
+img{
+  width: 90px;
+  height: 70px;
+}
+ div.catagory1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div.catagory1 div {
+
+width: 25%;
+display: flex;
+flex-direction: column;
+padding-bottom: 80px;
+
+}
