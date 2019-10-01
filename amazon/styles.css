@@ -1,1 +1,43 @@
 /* Add your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1 {
+  color: #e37811;
+  font-size: 30px;
+  font-weight: 900;
+}
+h1 + p {
+color: #929298;
+font-size: 14px;
+font-weight: 500;
+}
+a {
+  color: #5589cc;
+}
+li a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+h2 {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #eceded;
+}
+.shop-selector {
+  display: flex;
+  flex-flow: row wrap;
+}
+li {
+  list-style: none;
+  padding: 20px;
+  width: 120px;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 800;
+  color: #2473c6;
+  text-align: center;
+}

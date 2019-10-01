@@ -1,1 +1,32 @@
 /* Add your CSS here */
+body{
+  background-color: #fafafa;
+  /* width: 800px; */
+}
+.main-heading {
+  font-size: 90px;
+  display: flex;
+  flex-direction: column;
+  color: #0d2c30;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-bar li a{
+  color: white;
+  text-decoration: none;
+  background-color: #a5083c;
+  padding: 20px;
+}
+.nav-bar li{
+  font-size: 20px;
+  font-family: sans-serif;
+  list-style: none;
+  margin: 20px;
+}
+.paragraph {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 40px;
+}

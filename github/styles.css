@@ -1,1 +1,68 @@
 /* Add your CSS here */
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a {
+ color: #397fdb;
+
+}
+.nav-header,
+.nav-bar,
+.descriptive-content,
+.main-content,
+.nav-container {
+  display: flex;
+}
+.nav-header {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main-content {
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.nav-bar {
+  width: 400px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-bar a,
+.nav-header a,
+p a {
+  text-decoration: none;
+}
+.nav-bar li,
+.nav-header li {
+  list-style: none;
+}
+.nav-header li:first-child {
+  padding-right: 20px;
+}
+.pic {
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+article h2,
+article p {
+  overflow: hidden;
+}
+.main-content h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #252a2f;
+}
+.main-content p {
+  text-align: center;
+}
+p {
+  color: #61676d;
+}
+.article-padding {
+  padding: 0 10px 0 10px;
+}
+h2 {
+  color: #252a2f;
+}
