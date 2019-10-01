@@ -1,1 +1,69 @@
-/* Add your CSS here */
+h1 {
+  color: darkorange;
+  font-size: 48pt;
+  font-family: arial;
+
+}
+
+.single {
+  color: grey;
+  font-size: 14pt;
+  font-family: arial;
+}
+
+p {
+  font-family: arial;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 28pt;
+}
+
+.line {
+  background-color: lightgrey;
+  border: 0;
+  border-top: 1px solid lightgrey;
+  height: 1px;
+  margin: 2rem auto;
+  text-align: center;
+  width: 99%;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.top-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: stretch;
+  color: blue;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.bottom-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: stretch;
+  color: blue;
+  font-family: arial;
+  font-weight: bold;
+}
