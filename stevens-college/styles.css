@@ -5,8 +5,11 @@ h1 {
 }
 
 img {
+  display: flex;
   height: 400px;
   width: 100%;
+  justify-content: center;
+
 }
 
 li a {
