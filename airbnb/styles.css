@@ -1,1 +1,44 @@
-/* Add your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: 1px solid grey;
+  padding: 2em 0 2em 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 3em 0.5em 3em 0.5em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dates {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0em 1em 0em;
+}
+
+.check_in_box {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 0.5em 2em 0.5em;
+}
+
+a {
+  width: 32%;
+}
