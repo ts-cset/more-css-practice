@@ -12,43 +12,55 @@
 }
 .form input{
   width: 100%;
+  height: 50px;
 }
 .button{
+  margin-top: 50px;
   display: flex;
-  height: 20px;
+  height: 50px;
   width: 100%;
   background-color: red;
 }
 .button div{
+  margin-top: 15px;
  padding-left: 50%;
 }
 .explore{
+  display: flex;
   position: relative;
   display: flex;
   height: 100px;
 }
 .explore img{
-   margin-left: 200px;
+   margin-right: 200px;
 }
-.explore h2:first-child{
+.explore h2{
   position: absolute;
+  right: 0px;
   margin-bottom: 500px;
 }
 .explore .one{
+  position: relative;
   border: 1px solid black;
   margin-top: 100px;
 }
+.explore .one h2{
+  position: absolute;
+  right: 0px;
+}
 .explore .two{
+  position: relative;
   border: 1px solid black;
   margin-top: 100px;
 }
 .explore .three{
+  position: relative;
   border: 1px solid black;
   margin-top: 100px;
 }
 .explore img{
-  height: 100px;
-  width:100px;
+  height: 90px;
+  width:90px;
   justify-content: space-between;
 }
 .explore{
@@ -72,4 +84,7 @@
   left: 25%;
   font-size: 50px;
   color: white;
+}
+.text h2{
+  font-weight: bold;
 }
