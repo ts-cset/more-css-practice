@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: gray;
+}
+
 header p {
   width: 70%;
   font-size: 1.5rem;
@@ -61,12 +65,36 @@ nav {
   font-size: 1.2rem;
 }
 
+h2 {
+  font-weight: normal;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info::before {
+  content: url("https://placekitten.com/100/100");
+  order: 1;
+  margin: 1rem;
+}
+
 .diversity {
-  width: 50%;
-  float: left;
+  width: 30%;
+  order: 2;
+  margin-right: 2rem;
+}
+
+.info::after {
+  content: url("https://placekitten.com/100/100");
+  order: 3;
+  margin: 1rem;
+  margin:left: 2rem;
 }
 
 .happy {
-  width: 50%;
-  float: left;
+  width: 30%;
+  order: 4;
 }
