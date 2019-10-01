@@ -1,1 +1,68 @@
-/* Add your CSS here */
+li {
+  display: inline;
+  list-style: none;
+}
+
+.colab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 40px;
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 20px;
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+  align-items: center;
+}
+
+.links {
+    padding-top: 20px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-spacing: 2px;
+  justify-content: space-evenly;
+}
+
+.work {
+  padding-top: 50px;
+}
+
+.Wdiv {
+  float: left;
+  width: 50%;
+}
+
+.Whap {
+  float: right;
+  width: 50%;
+}
+
+.Wimg {
+  float:left;
+  width: 20%;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+.Wtext {
+  margin: 0 inherit;
+}
+
+h2, h3 {
+  font-size: 20px;
+}

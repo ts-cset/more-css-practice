@@ -1,1 +1,49 @@
-/* Add your CSS here */
+.Title {
+  display: flex;
+  flex-direction: column;
+    font-size: 25px;
+}
+
+.Pnav {
+  display: inline;
+}
+
+h1 {
+  color: orange;
+  padding-left: 10px;
+  font-size: 40px;
+}
+
+.shop {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  border-bottom: solid lightgray;
+}
+
+.Nav-container {
+  display: flex;
+}
+
+.Nav-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  flex: 8;
+  padding-left: 10px;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}

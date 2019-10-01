@@ -1,1 +1,45 @@
-/* Add your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  float: left;
+  border: solid 1px lightgray;
+  width: 20%;
+  height: 800px;
+  padding: 10px;
+  }
+
+  .navigation {
+      list-style: none;
+  }
+
+  h6, h5 {
+    font-size: 25px;
+    color: gray;
+  }
+
+.main {
+  display: flex;
+  justofy-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: 5px 5px 0px 0px;
+  border: solid 1px lightgray;
+  width: 80%;
+  height: 800px;
+
+}
+
+ul {
+  font-size: 20px;
+  display; flex;
+}
+
+li {
+  text-decoration: none;
+}
