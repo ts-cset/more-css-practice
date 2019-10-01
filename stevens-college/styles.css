@@ -1,1 +1,33 @@
+* {
+    box-sizing: content-box;
+    width: 600px;
+}
+
+.image {
+    display: flex;
+    height: 400px;
+    width: 700px;
+}
+
+.buttonboys {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+.buttons {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: maroon;
+    Height: 50px;
+    width: 175px;
+}
+
+h1 {
+    font-size: 75px;
+}
 /* Add your CSS here */
