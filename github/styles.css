@@ -1,1 +1,12 @@
+* {
+    box-sizing: content-box;
+
+}
+
+.nav {
+    position: static;
+    position: top;
+    position: left;
+}
+
 /* Add your CSS here */
