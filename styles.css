@@ -1,0 +1,13 @@
+img {
+  width: 100%;
+  ;
+}
+
+input {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.Anywhere {
+  width: 100%;
+}
