@@ -5,6 +5,7 @@
 }
 a {
  color: #397fdb;
+
 }
 .nav-header,
 .nav-bar,
@@ -50,10 +51,18 @@ article p {
 }
 .main-content h1 {
   font-size: 40px;
+  text-align: center;
+  color: #252a2f;
+}
+.main-content p {
+  text-align: center;
 }
 p {
   color: #61676d;
 }
-a:active {
-  color: black;
+.article-padding {
+  padding: 0 10px 0 10px;
+}
+h2 {
+  color: #252a2f;
 }
