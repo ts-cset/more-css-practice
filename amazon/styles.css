@@ -1,1 +1,36 @@
 /* Add your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+
+}
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-bottom: solid thin black;
+}
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.books {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.books2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
