@@ -20,6 +20,8 @@ article {
 
 aside {
   background-color: white;
+  height: 500px;
+  border: solid grey 1px;
   float: right;
   width: 15%;
 }
@@ -30,8 +32,6 @@ ul {
 }
 
 ul.Outside {
-  height: 500px;
-  border: solid grey 1px;
   margin: 0;
   padding-left: 0;
 }
