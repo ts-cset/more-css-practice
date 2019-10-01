@@ -1,1 +1,10 @@
 /* Add your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}

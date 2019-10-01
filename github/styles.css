@@ -1,1 +1,30 @@
 /* Add your CSS here */
+li {
+  display: inline-block;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 40px 0 40px;
+}
+
+section p {
+  font-size: 16pt;
+  text-align: center;
+}
+
+section nav {
+  font-size: 14pt;
+}
+
+h1 {
+  font-size: 36pt;
+  text-align: center;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+}
