@@ -1,1 +1,100 @@
-/* Add your CSS here */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 8rem;
+  font-size: 3rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+ul {
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: gray;
+}
+
+header p {
+  width: 70%;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+}
+
+.current::before{
+  content: "/ ";
+  color: gray;
+}
+
+.links li{
+  display: block;
+  width: 30%;
+  text-align: center;
+}
+.links ul{
+  display: flex;
+  width: 50%;
+  margin: 3rem auto 4rem auto;
+  justify-content: space-around;
+}
+
+.links a {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info::before {
+  content: url("https://placekitten.com/100/100");
+  order: 1;
+  margin: 1rem;
+}
+
+.diversity {
+  width: 30%;
+  order: 2;
+  margin-right: 2rem;
+}
+
+.info::after {
+  content: url("https://placekitten.com/100/100");
+  order: 3;
+  margin: 1rem;
+  margin:left: 2rem;
+}
+
+.happy {
+  width: 30%;
+  order: 4;
+}
