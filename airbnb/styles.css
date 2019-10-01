@@ -39,6 +39,11 @@ main input {
   width: 50%;
 }
 
+select {
+  display: block;
+  width: 100%;
+}
+
 main a {
   display: block;
   background: red;
