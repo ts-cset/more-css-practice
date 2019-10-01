@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-​
+
 body {
   display: flex;
   flex-direction: column;
@@ -11,22 +11,22 @@ body {
   width: 600px;
   margin-left: 100px;
 }
-​
+
 h1 {
   font-size: 85px;
 }
-​
+
 img {
   height: 250px;
   width: 100%;
 }
-​
+
 ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-​
+
 li {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -36,12 +36,12 @@ li {
   margin-left: 50px;
   margin-right: 50px;
 }
-​
+
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
-​
+
 p {
   margin-top: 10px;
 }
