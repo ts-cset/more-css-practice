@@ -1,1 +1,25 @@
 /* Add your CSS here */
+nav{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10%;
+  float: left;
+  border: thin grey;
+  margin-left: 1%;
+  margin-right: 1%;
+
+}
+nav a{
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+article{
+  margin-left: 5rem;
+
+}
+h3{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: grey;
+}
