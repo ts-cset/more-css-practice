@@ -1,1 +1,88 @@
-/* Add your CSS here */
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  background-image: url(https://placekitten.com/1000/100);
+  color: #fff;
+  padding: 2rem 0;
+  padding-left: 1rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+main label {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  margin-bottom: 0.5rem;
+}
+
+main input {
+  display: block;
+  width: 100%;
+}
+
+.check {
+  width: 50%;
+}
+
+select {
+  display: block;
+  width: 100%;
+}
+
+main a {
+  display: block;
+  background: red;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+}
+
+h2 {
+  margin: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  margin: 1rem;
+}
+
+nav li {
+  width: 31%;
+  height: 100px;
+  display: flex;
+  justify-content:
+}
+
+.text {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 1rem;
+  font-size: 2rem;
+  color: #000;
+  border: 1px solid grey;
+  border-left: none;
+}
