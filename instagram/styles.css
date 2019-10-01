@@ -1,1 +1,45 @@
-/* Add your CSS here */
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body{
+    margin: 3;
+}
+.nav {
+  background-color: white;
+  border: thin solid lightgrey;
+  height: 100%;
+  width: 20%;
+  float:left;
+}
+main {
+  background:white;
+  border: thin solid lightgrey;
+  height: 100%;
+  width: 80%;
+  float:right;
+  padding-left: 2rem;
+}
+h1{
+  font-weight: 400;
+}
+ul{
+    list-style-type: none;
+}
+li{
+  margin: 2rem 0 2rem 0 ;
+
+}
+.side-title{
+    margin: .5rem 0 .5rem 1rem;
+    font-size: 17px;
+    font-weight: 400;
+    color: grey;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+span{
+  font-weight: bold;
+}

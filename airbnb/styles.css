@@ -1,1 +1,46 @@
-/* Add your CSS here */
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+header{
+  position: relative;
+}
+body{
+  margin: 0;
+}
+h1{
+  position: absolute;
+  top:0;
+  left:0;
+  color: white;
+}
+.first-last{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+.first-last input{
+  height: 2.5rem;
+  font-size: 1rem;
+  color: grey;
+}
+h3{
+  font-size: .5rem;
+  color: grey;
+}
+.check{
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.check section{
+  display: flex;
+  flex-direction: column;
+}
+.date{
+  height: 2.5rem;
+  font-size: 1rem;
+  color: grey;
+  width: %;
+}

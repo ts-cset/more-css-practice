@@ -1,1 +1,27 @@
-/* Add your CSS here */
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.none{
+  padding:10px;
+  border-top: thin solid lightgrey;
+
+}
+.one{
+  display: flex;
+  justify-content: space-around;
+}
+article{
+  display: flex;
+  flex-direction: column;
+}
+.two{
+  display: flex;
+  justify-content: space-around;
+}
+article img{
+    width: 100px;
+}
+article a{
+  width:150px;
+}
