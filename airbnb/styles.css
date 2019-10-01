@@ -60,11 +60,16 @@ button {
 }
 .links {
   display: flex;
-  border: 1px solid #f0f0f0;
   justify-content: space-between;
 }
 .links section {
-  flex: 1;
+  border: 1px solid #f0f0f0;
+  width: 30%;
+}
+.links section a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 img {
   float: left;
@@ -76,4 +81,7 @@ h3 {
   font-size: 12px;
   font-weight: 750;
   border-radius: 5px;
+}
+.no-underline {
+  text-decoration: none;
 }
