@@ -1,1 +1,43 @@
-/* Add your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1200px;
+
+}
+
+h2 {
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 10px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+article a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

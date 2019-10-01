@@ -1,1 +1,81 @@
-/* Add your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  height: 300px;
+}
+
+.checkin {
+    width: 100%;
+}
+
+.middle {
+  display: flex;
+  width: 100%;
+}
+
+.text article {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+
+.label input {
+  display: block;
+  width: 100%;
+  height: 40px;
+
+}
+
+.label50 input {
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+
+.explore {
+  display: flex;
+  flex-direction: row;
+}
+
+.explore article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  border: 1px solid gray;
+  margin: 10px;
+  width: 350px;
+}
+
+.explore article a {
+  padding-left: 30px;
+}
+
+img {
+  height: 70px;
+  width: 120px;
+}

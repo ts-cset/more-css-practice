@@ -1,1 +1,95 @@
-/* Add your CSS here */
+/** General **/
+
+* {
+  box-sizing: border-box;
+
+}
+
+.body {
+  height: 900px;
+  font-size: 18px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+section {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+
+/** Navigation Bar **/
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+ul li:first-child {
+  color: lightgray;
+  position: relative;
+  right: 20px;
+}
+
+ul li:nth-child(5) {
+  color: lightgray;
+  position: relative;
+  right: 20px;
+}
+
+#sidebar {
+  width: 750px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+}
+
+
+/** Main Content **/
+
+#main {
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 150px;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+h2 {
+  margin-top: 10px;
+  font-weight: 330;
+}
+article div {
+  padding-bottom: 0px;
+}
+h3 {
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+p a {
+  color: #33bbff;
+}
