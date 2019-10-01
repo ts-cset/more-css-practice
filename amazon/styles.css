@@ -1,1 +1,45 @@
 /* Add your CSS here */
+*{
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: orange;
+
+}
+h5 {
+color:gray;
+padding-top:20px;
+padding-bottom:20px;
+}
+h2{
+
+}
+header{
+  border-bottom:solid;
+  border-color: gray;
+  border-bottom-width: 2px;
+  padding: 20px;
+}
+Section{
+  justify-content: center;
+  display: flex;
+  border-top: 1rem inherit;
+  flex-flow: wrap;
+}
+.Photo-Slection{
+height: 200px;
+width:20%;
+margin:1rem;
+margin-top: 2rem;
+}
+.Photo-Slection
+a{
+  display:block;
+}
+img{
+  display: block;
+  position:relative;
+  right: 50px;
+}

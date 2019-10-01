@@ -1,1 +1,39 @@
 /* Add your CSS here */
+h1{
+  margin:auto;
+ display: flex;
+ justify-content: center;
+}
+img{
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+}
+h3{
+  margin:auto;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+.Schedule{
+  margin:auto;
+  padding:20px;
+  background-color: maroon;
+}
+.Faculty{
+  margin:auto;
+  padding:20px;
+  background-color: maroon;
+}
+.ToolList{
+  margin:auto;
+  padding:20px;
+  background-color: maroon;
+}
+p{
+  margin:auto;
+  padding-top:10px;
+}
+a{
+  color: white;
+}
