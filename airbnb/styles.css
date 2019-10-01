@@ -1,1 +1,24 @@
 /* Add your CSS here */
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.Where {
+  color: red;
+}
+
+.Dates {
+  background-color: #808080;
+  color: blue;
+  display: flex;
+}
+
+.Guests {
+  color: green;
+}
+
+.Homes, .Experiences, .Restaurants {
+  border: 1px thin #808080;
+  box-sizing: border-box;
+}

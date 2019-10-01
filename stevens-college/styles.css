@@ -1,1 +1,30 @@
 /* Add your CSS here */
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  font-family: arial;
+  align-items: center;
+}
+
+.CSET {
+  display: block;
+  width: 560px;
+}
+
+h1 {
+  font-size: 48pt;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.schedule, .faculty, .tool_list {
+  background-color: #8b1e41;
+  color: white;
+  padding: 10px;
+}

@@ -1,1 +1,8 @@
 /* Add your CSS here */
+.positions, .apprenticeships, .internships {
+  box-sizing: border-box;
+  justify-content: flex-start;
+  display: flex;
+  flex-flow: row;
+  padding: 10px;
+}
