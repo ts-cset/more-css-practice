@@ -1,1 +1,29 @@
-/* Add your CSS here */
+
+* {
+    box-sizing: content-box;
+}
+body {
+width: 1000px;
+}
+h1 {
+    font-size: 2rem;
+    color: orange;
+}
+
+p {
+    color: grey;
+}
+h2 {
+    border-bottom: 1px solid lightgrey;
+}
+
+.bottom {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+.selections {
+    width: 130px;
+    padding: 10px;
+}
