@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  width: 1000px;
 }
 
 *, *:before. *:after {
@@ -8,21 +9,79 @@ html {
   padding: 0;
 }
 
-label {
+header {
+  background-image: url(http://placekitten.com/1000/300/);
+  height: 300px;
+  color: white;
+}
+
+main label {
   display: block;
+  width: 100%;
 }
 
 main a {
   display: block;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+label:last-child {
+  width: 100%;
 }
 
+select {
+  width: 100%
+}
+
+.search {
+  border: red solid;
+  padding: 1em;
+  width: 100%;
+  margin-top: 1em;
+  background-color: red;
+  text-decoration: none;
+  text-align: center;
+}
 .centerboxes {
+  margin: 1em 0 1em 0;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.centerboxes label {
+  width: 50%;
+}
+
+.centerboxes input {
+  display: block;
+  width: 100%;
+}
+
+.center {
+  width: 100%
+}
+
+.center input {
+  display: block;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.links li {
+  display: flex;
+  width: 33%;
+  margin-left: 1em;
+}
+
+.links a:last-child {
+  border-top: solid grey;
+  border-right: solid grey;
+  border-bottom: solid grey;
+  height: 94px;
+  width: 100%;
+  text-decoration: none;
 }
