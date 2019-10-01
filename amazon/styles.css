@@ -1,1 +1,51 @@
 /* Add your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.the-main {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+}
+
+.the-main h1 {
+  color: darkorange;
+}
+
+.the-main h2 {
+  color: black;
+}
+
+.images {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.images ul {
+  list-style: none;
+}
+
+.images li {
+  list-style: none;
+}
+
+.images img {
+  width: 90px;
+  height: 100px;
+}
+
+.images p {
+}
+
+.images a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.thelist {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 15px 5px 15px 5px;
+}

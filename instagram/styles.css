@@ -1,1 +1,49 @@
 /* Add your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  display: block;
+  width: 600px;
+  background-color: white;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-radius: 1px;
+  padding: 50px;
+  width: 60%;
+  margin-left: 20%;
+  height: 100%;
+}
+
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-radius: 1px;
+  width: 20%;
+  height: 62.6%;
+}
+
+.side-menu ul {
+  list-style: none;
+}
+
+.side-menu p {
+  color: darkgray;
+}
+
+.side-menu a {
+  color: darkgray;
+}
+
+.side-menu a:hover {
+  color: black;
+  border-left: 3px solid black;
+}

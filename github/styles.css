@@ -1,1 +1,71 @@
 /* Add your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.top-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-menu ul {
+  list-style: none;
+}
+
+.top-menu li {
+display: inline-flex;
+}
+
+.top-menu a {
+  color: blue;
+  text-decoration: none;
+}
+
+.top-menu a:hover {
+  color: black;
+}
+
+.middle-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middle-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.middle-links li {
+  display: inline-flex;
+  padding: 20px;
+}
+
+.middle-links a {
+  color: blue;
+  text-decoration: none;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom a {
+  color: blue;
+  text-decoration: none;
+}
+
+.bottom img {
+  margin: 20px;
+}
+
+.bottom .p1 {
+
+}
+
+.bottom .p2 {
+
+}
