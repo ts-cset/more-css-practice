@@ -5,12 +5,15 @@
   border-left: thin solid lightgray;
   padding-left: 40px;
   padding-right: 20px;
+  padding-bottom: 50px;
+  width: 87%;
 }
 .sidebar {
   display: flex;
   flex-direction: column;
   padding-right: 50px;
   padding-left: 10px;
+  width: 13%;
 }
 .entire {
   display: flex;
@@ -23,6 +26,9 @@ h1 {
 .information h2{
   font-size: 18px;
 }
+.information p {
+  font-weight: 270;
+}
 h1,
 h2,
 h3,
@@ -30,7 +36,6 @@ p,
 a {
   color: #2c2c2c;
   font-family: sans-serif;
-  font-weight: 270;
 }
 a {
   text-decoration: none;
@@ -46,4 +51,7 @@ ul {
 }
 span {
   font-weight: bold;
+}
+li a:hover {
+  font-weight: 700;
 }
