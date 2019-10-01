@@ -1,1 +1,33 @@
-/* Add your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-weight: bolder;
+}
+
+.titlew {
+  display:flex;
+align-items: flex-start;
+flex-direction: column;
+border:thin solid red;
+}
+.title{
+  font-size: 64px;
+}
+.links {
+  display:flex;
+  justify-content: space-around;
+  border:thin solid red;
+  justify-content: space-around;
+  list-style-image:none;
+}
+li{
+  background: maroon
+  list-style-image:none;
+}
+.img {
+
+  border:thin solid red;
+}

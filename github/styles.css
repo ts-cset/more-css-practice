@@ -1,1 +1,67 @@
-/* Add your CSS here */
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style-type:none;
+  display: inline;
+}
+a{
+  text-decoration: none;
+}
+.topbar-a{
+
+}
+.topbar-c{
+  color: black;
+}
+.in{
+  color:grey;
+}
+main{
+  display:flex;
+  flex-direction: column;
+}
+.intro{
+  width: 45rem;
+  align-self: center;
+  flex-direction: column;
+
+}
+h1 {
+  font-size: 2.5rem;
+  text-indent:3rem;
+  padding-left: 3rem;
+}
+.intro p{
+  font-size: 1.25rem;
+  align-self: center;
+}
+.king{
+    justify-content: center;
+}
+.links {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  margin-left: 30%
+}
+.float{
+  float: left;
+  flex-wrap: wrap;
+}
+h2{
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  display:inline;
+}
+.E p{
+  display: inline;
+  font-size: .5rem;
+  width: 30%;
+}
