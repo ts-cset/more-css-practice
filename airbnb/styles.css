@@ -1,1 +1,74 @@
 /* Add your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  padding: 3rem;
+  background-color: grey;
+  color: white;
+  background-image: url(http://placekitten.com/1500/1500);
+}
+input{
+  margin: 1rem;
+
+}
+.anywhere{
+  display: block;
+  width: 100%;
+}
+.category{
+  text-transform: uppercase;
+
+}
+.CheckInAndOut div{
+  display: flex;
+  flex-direction: row;
+
+}
+.CheckInAndOut h2{
+  width: 50%;
+}
+
+.CheckInAndOut div{
+  display: flex;
+  flex-direction: row;
+}
+.checkout input{
+  display: block;
+  width: 50%;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.guest input{
+  display: block;
+  width: 100%;
+}
+.exploreitem{
+  display: flex;
+  border: solid lightgrey;
+  flex-flow: row;
+  width: 33%;
+  margin: 1rem;
+
+
+
+
+}
+
+.Explore{
+display: flex;
+
+}
+
+.SearchButton{
+  text-align: center;
+  color: white;
+  background-color: #F67878;
+}
+h3{
+  flex direction: column;
+  align-self: center;
+}
