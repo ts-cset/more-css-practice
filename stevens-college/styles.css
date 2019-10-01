@@ -1,1 +1,61 @@
-/* Add your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.topbox {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  margin: 10px;
+}
+
+.whatevs {
+  border: 1px solid black;
+  height: 9em;
+  margin: 1em 1em 0em 1em;
+  width: 16em;
+}
+
+h1 {
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
+}
+
+a.button {
+  background: maroon;
+  color: white;
+  height: 3em;
+  padding-top: 1em;
+  text-align: center;
+  text-decoration: none;
+  width: 7em;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.links {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 6em;
+  justify-content: space-around;
+  margin-top: 0;
+}
+
+article {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}

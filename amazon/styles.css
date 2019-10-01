@@ -1,1 +1,60 @@
-/* Add your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1em;
+}
+
+header {
+  border-bottom: 1px solid lightgrey;
+}
+
+.top {
+  padding-bottom: 2em;
+}
+
+p.text {
+  color: #818585;
+}
+
+h1 {
+  color: orange;
+  margin-bottom: 10px;
+}
+
+a.products {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+header {
+  padding-bottom: 15px;
+}
+
+.products {
+  height: 14em;
+  width: 25%;
+}

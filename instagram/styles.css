@@ -1,1 +1,76 @@
-/* Add your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 5px 10px 5px;
+}
+
+.sidemenu {
+  border: 2px solid lightgrey;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px 10px 0px 10px;
+  position: relative;
+}
+
+li {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.side {
+  color: grey;
+  cursor: pointer;
+}
+
+a.side:hover {
+  color: black;
+  cursor: p;
+}
+
+main {
+  border-top: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  padding-left: 30px;
+  width: 72%;
+}
+
+h1 {
+  font-size: 24px;
+  padding: 40px 20px 40px 0px;
+}
+
+h2 {
+  font-size: 18px;
+  padding: 0px 0 20px 0;
+}
+
+h3 {
+  font-size: 16px;
+  padding: 20px 0 20px 0;
+}
+
+h4 {
+  padding: 20px 0 0 20px;
+  text-transform: capitalize;
+}
+
+p {
+  padding-bottom: 20px;
+}
