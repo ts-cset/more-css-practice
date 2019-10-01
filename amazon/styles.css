@@ -1,1 +1,65 @@
-/* Add your CSS here */
+*, *::after, *::before {
+    box-sizing: border-box;
+   }
+   body {
+    font-family: sans-serif;
+   }
+
+   header h1{
+       color: #ff9900;
+   }
+
+   header p{
+       margin 0.5 top;
+   }
+
+.links li{
+    width: 80%;
+    
+   }
+   .links ul{
+    display: flex;
+    width: 75%;
+    margin: 5 rem auto 5 rem auto;
+    font-size: 0.5 rem;
+    justify-content: space-between;
+    
+   }
+
+   li {
+    display: inline;
+    list-style: none;
+   }
+
+   .pictures li{
+    width: 80%;
+    
+   }
+   .pictures ul{
+    display: flex;
+    width: 80%;
+    margin: 5 rem auto 5rem auto;
+    
+   }
+   .pictures a {
+    font-size: 1 rem;
+   }
+
+   .pictures {
+    display: inline;
+    list-style: none;
+   }
+   
+   .links2 li{
+    width: 80%;
+    
+   }
+   .links2 ul{
+    display: flex;
+    width: 80%;
+    margin: 5 rem auto 5rem auto;
+    justify-content: space-between;
+   }
+   .links2 a {
+    font-size: 1 rem;
+   }

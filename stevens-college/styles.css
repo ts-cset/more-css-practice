@@ -1,1 +1,27 @@
-/* Add your CSS here */
+.title {
+display: block;
+font-size: 6rem;
+font-weight: 800;
+margin: 0;
+padding-right: 2000;
+}
+
+.cat-photo{
+width: 608px;
+height: 340px;
+margin-left: 5px;
+}
+
+a{
+ border: solid #a6093d;
+ margin: 30px;
+ display: inline-block;
+ box-sizing: border-box;
+ width: 140px;
+ height: 45px;
+ text-align: center;
+ background-color: #a6093d;
+ color: #ffffff;
+padding: 10px;
+}
+
