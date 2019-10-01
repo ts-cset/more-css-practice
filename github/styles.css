@@ -1,1 +1,50 @@
-/* Add your CSS here */
+*, *::after, *::before {
+    box-sizing: border-box;
+   }
+   body {
+    font-family: sans-serif;
+   }
+   h1 {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 3rem;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   li {
+    display: inline;
+    list-style: none;
+   }
+   ul {
+    padding-left: 0;
+   }
+   a {
+    text-decoration: none;
+   }
+   header p {
+    width: 70%;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   }
+   nav {
+    position: absolute;
+    top: 0;
+   }.links li{
+    display: block;
+    width: 30%;
+    text-align: center;
+   }
+   .links ul{
+    display: flex;
+    width: 50%;
+    margin: 3rem auto 4rem auto;
+    justify-content: space-around;
+   }
+   .links a {
+    font-size: 1.2rem;
+   }
+   
+   /* Add your CSS here */
