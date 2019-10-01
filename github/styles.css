@@ -1,13 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
 header {
   display: flex;
   flex-direction: row;
-  font-size: 13px;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-left: 1em;
 }
 
 body {
@@ -20,14 +23,15 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
 .text {
-  text-align: center;
   margin: 10em 5em 3em 5em;
+  text-align: center;
 }
 
 h1 {
   margin-bottom: 30px;
-  font-size: 4em;
+  font-size: 3.5em;
 }
 
 .links {
@@ -58,5 +62,13 @@ img {
 h3 {
   font-size: 20px;
   margin-bottom: 10px;
+}
 
+h3 {
+  margin-left: 1em;
+}
+
+.foot>p {
+  margin-left: 1em;
+  padding-bottom: 5em;
 }
