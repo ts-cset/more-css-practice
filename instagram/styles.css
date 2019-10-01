@@ -1,1 +1,21 @@
 /* Add your CSS here */
+
+nav{
+  display: flex;
+  flex-direction: column;
+  padding-top:10px;
+padding-right:40px;
+float:left;
+}
+a{
+  padding-top:30px;
+}
+article{
+  margin-left:5rem;
+}
+span{
+  text-transform:bold;
+}
+h4{
+  color:gray;
+}

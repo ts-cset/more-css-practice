@@ -1,1 +1,37 @@
 /* Add your CSS here */
+header{
+  display:flex;
+  justify-content: center;
+  border:solid inherit;
+  align-self:flex-end;
+}
+h1{
+  display:flex;
+  font-size: 3rem;
+  justify-content: center;
+}
+.good{
+  display: flex;
+  justify-content: center;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+}
+.link{
+  display:flex;
+  justify-content: space-around;
+}
+*{
+  box-sizing: border-box;
+}
+.Articles{
+  display:flex;
+}
+img{
+  float:left;
+  margin-right:10px;
+
+
+}
