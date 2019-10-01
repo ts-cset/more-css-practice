@@ -1,1 +1,38 @@
 /* Add your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+article {
+   display: flex;
+   flex-direction: column;
+   border: 1px solid lightgrey;
+   height: 800px;
+   width: 80%;
+   padding: 0 5% 0 5%;
+
+}
+
+nav {
+  display: flex;
+  float: left;
+  flex-direction: column;
+  padding-left: 40px;
+  width: 20%;
+  border: 1px solid lightgrey;
+  height: 800px;
+
+}
+
+h4 {
+color: lightgrey;
+}
+
+li {
+  display: flex;
+  justify-content: flex-start;
+}
+
+p {
+  display:
+}
