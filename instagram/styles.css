@@ -1,27 +1,26 @@
-.content {
+.article {
+  float: right;
+  justify-content: center;
+}
+
+.aside {
+  display: flex;
+  flex-flow: column wrap;
   float: right;
 }
 
-.sidebar {
-  display: flex;
-  float: left;
+.aside {
+  padding: 2rem;
+  width: 200px;
 }
 
-.sidebar {
-    background: #da9833;
-    color: #3c70a4;
-    padding: 2rem;
-    width: 200px;
-  }
-
-.sidebar {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
+.aside {
+  height: auto;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
