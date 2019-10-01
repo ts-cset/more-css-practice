@@ -1,1 +1,33 @@
 /* Add your CSS here */
+body{
+  display:flex;
+  height:100vh;
+}
+.navigation{
+  float:left;
+  padding: 2rem;
+  width: 15%;
+  border: 1px black solid;
+  height:500px;
+}
+nav a{
+  display:block;
+  text-decoration: none;
+  color:black;
+}
+
+article{
+  float:left;
+    width: 85%;
+    padding: 2rem;
+    border: 1px black solid;
+    height: 500px;
+}
+article a{
+  display:inline;
+  color:blue;
+  text-decoration: none;
+}
+nav h3{
+  color: grey;
+}
