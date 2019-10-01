@@ -1,1 +1,73 @@
-/* Add your CSS here */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  background-image: url("https://placekitten.com/2000/100");
+  height: 6rem;
+}
+
+h1{
+  color: white;
+  margin-left: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+}
+
+form > section {
+  display: flex;
+}
+section > section {
+  width: 50%;
+}
+
+.search {
+  background-color: #ff5c5c;
+  color: white;
+  margin: 1rem 0 1rem 0;
+}
+
+.explore ul {
+  display: flex;
+  padding-left: 0;
+  justify-content: space-around;
+}
+
+.explore li {
+  width: 30%;
+  list-style: none;
+  border: thin solid lightgray;
+  height: 75px;
+}
+
+.explore li a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
