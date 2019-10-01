@@ -1,6 +1,13 @@
-html {
+.html {
     box-sizing: border-box;
+    flex-flow: column;
+}
+
+article {
+    float: right:
+    width: 75%;
   }
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+aside {
+    float: right;
+    width: 15%;
+}

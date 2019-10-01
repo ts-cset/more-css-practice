@@ -1,9 +1,8 @@
-
 .body {
     box-sizing: border-box;
     border-block-width: auto;
 }
-.title {
+h1 {
     text-emphasis-color: black;
     align-content: center;
     font-size: 30px;
