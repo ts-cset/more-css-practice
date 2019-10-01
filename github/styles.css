@@ -1,1 +1,55 @@
 /* Add your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  font-size: 75px;
+}
+
+p {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+li {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 25px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.head1, .text1, .head2, .text2{
+  margin-left: 25px;
+}
