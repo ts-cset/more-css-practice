@@ -1,1 +1,69 @@
 /* Add your CSS here */
+body{
+  box-sizing: border-box;
+}
+.private{
+  flex-wrap: nowrap;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.top img{
+  width: 25%;
+  margin-left: 50px;
+  justify-content: center;
+  height: 10%;
+}
+.top h2{
+  font-size: 20px;
+    white-space: nowrap;
+  justify-content: space-between;
+  justify-content: flex-start;
+  position: relative;
+  top: 300px;
+  color: green;
+  right: 170px;
+}
+.top h2:nth-of-type(2){
+  right: 180px;
+}
+.top h2:nth-of-type(3){
+  right: 200px;
+}
+.top h2:nth-of-type(4){
+  right: 200px;
+}
+.bottom{
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.bottom img{
+  margin-left: 0px;
+  height: 10%;
+  width: 25%;
+}
+.bottom h2{
+  font-size: 20px;
+    white-space: nowrap;
+  bottom: 0px;
+  position: relative;
+  margin-bottom: 0px;
+  color: green;
+  padding-left: 50px;
+  top: 290px;
+  right: 230px;
+}
+.header h2:first-child{
+  font-size: 30px;
+  color: gold;
+}
+.body{
+  border-top: 1px solid black;
+}
+.header p span{
+  color: blue;
+}

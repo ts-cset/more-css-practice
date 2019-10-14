@@ -1,1 +1,35 @@
 /* Add your CSS here */
+.legal ul{
+  list-style-type: none;
+  font-size: 20px;
+}
+.about ul{
+  list-style-type: none;
+  font-size: 20px;
+}
+.Para{
+  position: relative;
+  padding: 50px;
+  border: 1px solid black;
+  width: 50%;
+  margin-left: 30%;
+  height: 100%;
+}
+.side{
+  display: flex;
+  flex-direction: column;
+  align-items:  flex-end;
+  position: absolute;
+  padding: 50px;
+  border: 1px solid black;
+  width: 70px;
+  left: -173px;
+  top: 0px;
+  height: 87%;
+}
+.side .about ul li:hover{
+  border-left: 10px solid black;
+}
+.side .legal ul li:hover{
+  border-left: 10px solid black;
+}
